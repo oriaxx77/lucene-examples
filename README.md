@@ -7,15 +7,16 @@ Then it runs some queries and prints the result.
 It is a simple gradle project. Use gradle to build it.
 
 ##How to run
-Run the See the [com.oriaxx77.lucenePlay.LucenePlay](./src/main/java/com/oriaxx77/lucenePlay/LucenePlay.java) class.
+Run the See the [com.oriaxx77.luceneplay.LucenePlay](./src/main/java/com/oriaxx77/luceneplay/LucenePlay.java) class.
+
 
 ##API
-[com.oriaxx77.lucenePlay.LucenePlay](./src/main/java/com/oriaxx77/lucenePlay/LucenePlay.java) class
+[com.oriaxx77.luceneplay.LucenePlay](./src/main/java/com/oriaxx77/luceneplay/LucenePlay.java) class
 - Static entry point of the example.
 - It's main creates some documents, runs some queries then prints the results.
 - It uses an in-memory store.
 
-[com.oriaxx77.lucenePlay.IndexCreator](./src/main/java/com/oriaxx77/lucenePlay/IndexCreator.java) class
+[com.oriaxx77.luceneplay.IndexCreator](./src/main/java/com/oriaxx77/lucenelpay/IndexCreator.java) class
 - Create 3 documents with two fields: id, tags.
 
 Documents created
@@ -25,7 +26,7 @@ Documents created
 | 1             | oranges          |
 | 2             | apples           |
 
-[com.oriaxx77.lucenePlay.IndexDocumentFinder](./src/main/java/com/oriaxx77/lucenePlay/IndexDocumentFinder.java) class
+[com.oriaxx77.luceneplay.IndexDocumentFinder](./src/main/java/com/oriaxx77/luceneplay/IndexDocumentFinder.java) class
   - It can run queries against index stores.
   - The example uses the following queries:
     - tags:oranges NOT tags:apples
@@ -33,7 +34,7 @@ Documents created
     - tags:oranges OR tags:apples
   
 
-[com.oriaxx77.lucenePlay.QueryResultPrinter](./src/main/java/com/oriaxx77/lucenePlay/QueryResultPrinter.java) class
+[com.oriaxx77.luceneplay.QueryResultPrinter](./src/main/java/com/oriaxx77/luceneplay/QueryResultPrinter.java) class
 - It can print query results on to the default output.
 
 Example output:
@@ -51,6 +52,6 @@ doc=1 score=0.52354836 shardIndex=0
 doc=2 score=0.52354836 shardIndex=0
 ```
 
-[com.oriaxx77.lucenePlay.Entity](./src/main/java/com/oriaxx77/lucenePlay/Entity.java) class
+[com.oriaxx77.luceneplay.Entity](./src/main/java/com/oriaxx77/luceneplay/Entity.java) class
 - Something to index.
 
