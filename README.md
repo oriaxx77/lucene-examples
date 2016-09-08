@@ -19,12 +19,14 @@ Run the See the [com.oriaxx77.luceneplay.LucenePlay](./src/main/java/com/oriaxx7
 [com.oriaxx77.luceneplay.IndexCreator](./src/main/java/com/oriaxx77/lucenelpay/IndexCreator.java) class
 - Create 3 documents with two fields: id, tags.
 
-Documents created
+Documents created:
+
 | id            | tags             |
-| ------------- | ---------------- |
+|:------------- |:---------------- | 
 | 0 		    | apples oranges   |
 | 1             | oranges          |
 | 2             | apples           |
+
 
 [com.oriaxx77.luceneplay.IndexDocumentFinder](./src/main/java/com/oriaxx77/luceneplay/IndexDocumentFinder.java) class
   - It can run queries against index stores.
